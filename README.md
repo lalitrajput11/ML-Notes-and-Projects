@@ -10,3 +10,13 @@ Phase 2 (Deep Learning + CV)   ████████░░ 80%
 Phase 3 (NLP + GenAI)          █████░░░░░ 50%
 
 Open this repo in Obsidian for graph view & linked notes!
+https://notegpt.io/youtube-video-summarizer : Youtube summarizer 
+
+
+
+
+
+# Ubuntu &Linux commands
+
+
+## Flask
