@@ -4,24 +4,79 @@
     "type": "split",
     "children": [
       {
-        "id": "2c5532ea6015283b",
+        "id": "e67156f25c9e019c",
         "type": "tabs",
         "children": [
           {
-            "id": "278870719c723514",
+            "id": "a7388ba343788867",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FastAPI/Notes.md",
+                "file": "Pytorch/Pytorch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Notes"
+              "title": "Pytorch"
+            }
+          },
+          {
+            "id": "d67a2e6cedb7f769",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Basic Machine Learning/Data/DataCleaning/Data Cleaning.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Data Cleaning"
+            }
+          },
+          {
+            "id": "ce03adfa9e0b4316",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Pytorch/ML+Cheat+Sheet_2.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "ML+Cheat+Sheet_2"
+            }
+          },
+          {
+            "id": "1d9de14e72773d06",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Basic Machine Learning/Data/DataCleaning/Pandas.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Pandas"
+            }
+          },
+          {
+            "id": "946efe21a0fb0b1e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Github/Github.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Github"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -180,7 +235,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,41 +253,54 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "278870719c723514",
+  "active": "946efe21a0fb0b1e",
   "lastOpenFiles": [
-    "FastAPI/Notes Ref Images.md",
+    "Path/AI Intern and OCR.md",
+    "Path/AI Automation.md",
+    "Pytorch/AI_Engineer_Roadmap_2026.pdf",
+    "Requirements/New.py.md",
+    "Basic Machine Learning/Data/Feature Engg/Feature Engg..md",
+    "Basic Machine Learning/Data/Feature Engg/Pasted image 20251223181039.png",
+    "Basic Machine Learning/Mathematics and Statistics/Pasted image 20251223181009.png",
+    "Basic Machine Learning/Data/Feature Engg",
+    "Basic Machine Learning/Data/Feature Engg/Pasted image 20251213085401.png",
+    "Basic Machine Learning/Data/Feature Engg/Pasted image 20251213084925.png",
+    "Basic Machine Learning/Data/DataCleaning/EDA.md",
+    "Basic Machine Learning/Data/DataCleaning/EDA.ipynb",
+    "Basic Machine Learning/Data/DataCleaning/Employee_dataset.csv",
+    "Basic Machine Learning/Data/DataCleaning/Unconfirmed 169704.crdownload",
+    "Basic Machine Learning/Machine Learning.md",
+    "Basic Machine Learning/Data/DataCleaning/Data Cleaning.md",
+    "Basic Machine Learning/Data/DataCleaning/Pandas.md",
+    "Basic Machine Learning/Data/DataCleaning/Pasted image 20251223163639.png",
+    "Basic Machine Learning/Data/DataCleaning/Titanic-Dataset.csv",
+    "Basic Machine Learning/Data/DataCleaning/Unconfirmed 868125.crdownload",
+    "Basic Machine Learning/Data/DataCleaning/Pandas.py",
+    "Basic Machine Learning/Data/Numpy.py",
+    "Basic Machine Learning/Data/DataCleaning/Pandas/Pandas.md",
+    "Basic Machine Learning/Data/DataCleaning",
+    "Pytorch/Pytorch.md",
+    "Basic Machine Learning/Data/Numpy.md",
+    "Requirements/Workflow.md",
+    "Pytorch/Pasted image 20251222162503.png",
+    "Pytorch/Pasted image 20251222162227.png",
+    "Pytorch/Pasted image 20251222154809.png",
+    "Pytorch/Pasted image 20251222154742.png",
+    "Pytorch/Pasted image 20251222153038.png",
+    "Linux and Ubuntu/Linux Commands.md",
+    "README.md",
+    "Python/ScrapData/Data Extraction.md",
+    "Python/Interview/Interview.md",
+    "Basic Machine Learning/Mathematics and Statistics/Statistical Modelling.md",
+    "Basic Machine Learning/Mathematics and Statistics/Proboablitty.md",
+    "Basic Machine Learning/Mathematics and Statistics/Linear Algebra.md",
+    "Basic Machine Learning/Mathematics and Statistics/Calculus.md",
+    "Basic Machine Learning/Data/DataCleaning/Data Preperation.md",
+    "Docker & Kubernet/Docker.md",
     "FastAPI/First API IN vs(local machine).md",
     "FastAPI/Notes.md",
-    "FastAPI/Pasted image 20251210092907.png",
-    "Python/Python Interview Questions",
-    "Untitled",
-    "FastAPI/Pasted image 20251210091218.png",
-    "FastAPI/Pasted image 20251210085723.png",
-    "FastAPI/Pasted image 20251210085514.png",
-    "FastAPI/Pasted image 20251210074929.png",
-    "FastAPI/Pasted image 20251210073123.png",
-    "FastAPI/Pasted image 20251210073023.png",
+    "Docker&n8n/Pull n8n.md",
     "Python/OOPS/Oops.md",
-    "FastAPI",
-    "Python/OOPS",
-    "Python",
-    "Linux and Ubuntu/Linux and Ubuntu.md",
-    "Basic Machine Learning/Deploying Model WorkFlow.md",
-    "README.md",
-    "2025-12-09.md",
-    "Basic Machine Learning",
-    "Excalidraw/Drawing 2025-12-09 10.21.28.excalidraw.md",
-    "Linux and Ubuntu",
-    "Github/Github.md",
-    "Github/GitPhotoREsourse",
-    "Github/Untitled.md",
-    "Github",
-    "Untitled 1.md",
-    "Untitled 1",
-    "Github/GitPhotoREsourse/Pasted image 20251209164220.png",
-    "Github/GitPhotoREsourse/Pasted image 20251209163202.png",
-    "Untitled.canvas",
-    "Github/GitPhotoREsourse/Pasted image 20251209161945.png",
-    "Untitled.md"
+    "Untitled.canvas"
   ]
 }

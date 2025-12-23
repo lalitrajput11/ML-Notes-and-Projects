@@ -24,10 +24,10 @@ Example : -
 
 !![[Pasted image 20251209161202.png]]
  
-  Git Merge | Git Rebase |Git Squash
+   Git Merge | Git Rebase |Git Squash  
   | Feature                        | `git merge`                               | `git rebase`                          | `git squash` (actually `rebase -i`)   |
-  | ------------------------------ | ----------------------------------------- | ------------------------------------- | ------------------------------------- |
-  | History type                   | Creates a **merge commit** (non-linear)   | **Linear history** (rewrites history) | Linear + combines many commits into 1 |
+  | ------------------------------ | ----------------------------------------- | ------------------------------------- | ------------------------------------- 
+   | History type                   | Creates a **merge commit** (non-linear)   | **Linear history** (rewrites history) | Linear + combines many commits into 1 |
   | Looks clean on GitHub?         | Noisy (extra merge commit)                | Very clean                            | Cleanest possible                     |
   | Safe if others already pulled? | 100% safe                                 | Dangerous (never on public branches)  | Dangerous (never on public branches)  |
   | When companies want it         | Rarely (only for release/hotfix branches) | Most startups & big tech prefer this  | Before PR → make 1 clean commit       |
