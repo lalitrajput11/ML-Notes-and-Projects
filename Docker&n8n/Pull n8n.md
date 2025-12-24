@@ -138,3 +138,162 @@ Then open:
 Run Docker without sudo:
 
 `sudo usermod -aG docker $USER newgrp docker`
+
+---
+---
+
+---
+lalitrajput@lalitrajput-dy5:~$ docker run -d \
+  --name n8n \
+  -p 5678:5678 \
+  -u $(id -u):$(id -g) \
+  -v ~/.n8n:/home/node/.n8n \
+  n8nio/n8n
+#################################################
+
+lalitrajput@lalitrajput-dy5:~$ docker ps
+
+CONTAINER ID   IMAGE       COMMAND                  CREATED          STATUS          PORTS                                       NAMES
+e9b9e4f1f4ff   n8nio/n8n   "tini -- /docker-ent…"   15 seconds ago   Up 15 seconds   0.0.0.0:5678->5678/tcp, :::5678->5678/tcp   n8n
+
+lalitrajput@lalitrajput-dy5:~$ docker stop n8n
+n8n
+
+lalitrajput@lalitrajput-dy5:~$ docker logs
+"docker logs" requires exactly 1 argument.
+See 'docker logs --help'.
+
+Usage:  docker logs [OPTIONS] CONTAINER
+
+Fetch the logs of a container
+
+lalitrajput@lalitrajput-dy5:~$ docker images
+
+REPOSITORY               TAG       IMAGE ID       CREATED         SIZE
+n8nio/n8n                latest    4f582dbbf7ea   11 hours ago    1.08GB
+kalilinux/kali-rolling   latest    7b1df727593e   3 months ago    123MB
+mysql                    latest    5cde95de907d   17 months ago   586MB
+sundowndev/phoneinfoga   latest    1110da5cef10   22 months ago   43MB
+
+lalitrajput@lalitrajput-dy5:~$ docker ps
+
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+l
+
+---
+Great 👍 n8n is **running correctly now**.
+
+You currently started it in **interactive mode**, so stopping and using it later is easy. Here are the **right ways**, depending on what you want.
+
+---
+
+## 🛑 Stop n8n (Right Now)
+
+Since your terminal is attached:
+
+### 👉 Just press:
+
+```
+Ctrl + C
+```
+
+This will:
+
+- Stop the n8n process
+    
+- Stop the Docker container
+    
+- Because you used `--rm`, the container is **removed automatically**
+    
+- ✅ Your data is **SAFE** in `~/.n8n`
+    
+
+---
+
+## ▶️ Start n8n Again Later (Same Setup)
+
+When you want to use it again, just run:
+
+```bash
+docker run -it --rm \
+  -p 5678:5678 \
+  -u $(id -u):$(id -g) \
+  -v ~/.n8n:/home/node/.n8n \
+  n8nio/n8n
+```
+
+Then open:
+
+```
+http://localhost:5678
+```
+
+---
+
+## ⭐ Better Way (Recommended): Run in Background
+
+So you don’t need to keep the terminal open.
+
+### 🔹 Start n8n in background
+
+```bash
+docker run -d \
+  --name n8n \
+  -p 5678:5678 \
+  -u $(id -u):$(id -g) \
+  -v ~/.n8n:/home/node/.n8n \
+  n8nio/n8n
+```
+
+---
+# Only to this now
+### 🔹 Stop it later
+
+```bash
+docker stop n8n
+```
+
+### 🔹 Start it again
+
+```bash
+docker start n8n
+```
+
+### 🔹 View logs anytime
+
+```bash
+docker logs n8n
+```
+
+---
+
+## 🧠 What’s the Difference?
+
+|Mode|Command|When to use|
+|---|---|---|
+|Interactive|`-it --rm`|Learning / testing|
+|Background|`-d --name n8n`|Daily / long-term use ✅|
+
+---
+
+## ✅ Recommended for You
+
+Since you’re into **automation, MySQL, APIs, AI workflows**:
+
+👉 **Use background mode**  
+It behaves like a real service.
+
+---
+
+If you want next:
+
+- 🔐 Enable username/password login
+    
+- 🔁 Auto-start n8n on boot
+    
+- 🐳 Docker Compose (best practice)
+    
+- 🔗 MySQL / GitHub / Telegram workflows
+    
+
+Just tell me 👍

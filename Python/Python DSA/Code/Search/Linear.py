@@ -24,7 +24,7 @@
 #     else:
 #         print("Element not found in the array.")
         
-class fraction:
+class Fraction:
     def __init__(self,n,d):
         self.num =n
         self.den =d
@@ -38,8 +38,8 @@ class fraction:
         
         return "{}/{}".format(temp_num,temp_den)
     
-x= fraction(2,3)
-print(x)
-y=fraction(4,3)
-print(y)
-print(x+y)
+# x= fraction(2,3)
+# print(x)
+# y=fraction(4,3)
+# print(y)
+# print(x+y)
