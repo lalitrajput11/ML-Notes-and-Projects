@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AgenticAi using Langraph/LLMs/LLms.md",
+                "file": "Docker&n8n/Pull n8n.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LLms"
+              "title": "Pull n8n"
             }
           }
         ],
@@ -229,8 +229,10 @@
   },
   "active": "bc41af23fa4d4619",
   "lastOpenFiles": [
-    "Data Labelling/Data Annotation/Data Labelling.md",
+    "Python/Logic/List and Linked list.md",
+    "Github/Github.md",
     "AgenticAi using Langraph/LLMs/LLms.md",
+    "Data Labelling/Data Annotation/Data Labelling.md",
     "AgenticAi using Langraph/LLMs",
     "Data Labelling/Company hunt.md",
     "Data Labelling/Data Annotation/Journey.md",
@@ -253,7 +255,6 @@
     "Langrap",
     "Path/AI-ML Intern.md",
     "Path/AI, ML ,LLM Role.md",
-    "Github/Github.md",
     "Path/AI Automation.md",
     "Pytorch/AI_Engineer_Roadmap_2026.pdf",
     "Requirements/New.py.md",
@@ -274,7 +275,6 @@
     "Pytorch/Pytorch.md",
     "Basic Machine Learning/Data/Numpy.md",
     "Requirements/Workflow.md",
-    "Linux and Ubuntu/Linux Commands.md",
     "Untitled.canvas"
   ]
 }

@@ -190,3 +190,138 @@ Example : -
     - Sophisticated branching and merging.
     - Supports efficient workflows and CI/CD pipeline integration.
     - Accelerates release cycles and improves project management.
+---
+---
+Great 👍 You just need to **push your local changes to GitHub**. I’ll give you **step-by-step commands**, assuming this folder is already a Git repository (which it is, since it’s on GitHub).
+
+Your repo:  
+👉 [https://github.com/lalitrajput11/ML-Notes-and-Projects](https://github.com/lalitrajput11/ML-Notes-and-Projects)
+
+---
+
+## ✅ STEP-BY-STEP: Update Local Project to GitHub
+
+### 📌 1. Go to your project directory (you already are)
+
+```bash
+cd ~/Tools/ML-Notes-and-Projects
+```
+
+---
+
+### 📌 2. Check Git status
+
+```bash
+git status
+```
+
+You’ll see:
+
+- Modified files
+    
+- New folders (like FastAPI, Pytorch, MLOps, etc.)
+    
+
+---
+
+### 📌 3. Add everything to Git
+
+```bash
+git add .
+```
+
+📌 This stages **all new & changed files**
+
+---
+
+### 📌 4. Commit your changes
+
+Write a meaningful message 👇
+
+```bash
+git commit -m "Updated ML notes, added FastAPI, PyTorch, MLOps and Docker resources"
+```
+
+---
+
+### 📌 5. Push to GitHub
+
+```bash
+git push origin main
+```
+
+👉 If your branch is `master`, use:
+
+```bash
+git push origin master
+```
+
+---
+
+## 🔐 If GitHub Asks for Login
+
+GitHub now uses **Personal Access Tokens (PAT)** instead of passwords.
+
+### Username:
+
+```
+lalitrajput11
+```
+
+### Password:
+
+➡️ Paste your **GitHub Personal Access Token**
+
+(If you don’t have one, I can guide you in 2 minutes)
+
+---
+
+## ✅ After Push
+
+Refresh your GitHub repo page:  
+👉 [https://github.com/lalitrajput11/ML-Notes-and-Projects](https://github.com/lalitrajput11/ML-Notes-and-Projects)
+
+You should see:
+
+- FastAPI
+    
+- Pytorch
+    
+- MLOps
+    
+- Docker folders
+    
+- Updated structure
+    
+
+---
+
+## 🧠 PRO TIP (Highly Recommended)
+
+Update your **README.md** to make your profile impressive:
+
+### Example README Sections:
+
+- 📘 Basic Machine Learning
+    
+- 🐍 Python for Data Science
+    
+- 🐳 Docker & Kubernetes
+    
+- 🚀 FastAPI Projects
+    
+- 🤖 PyTorch & Deep Learning
+    
+- ⚙️ MLOps Notes
+    
+
+If you want, I can:
+
+- ✨ Write a **professional README**
+    
+- ✨ Organize repo like an **industry ML engineer**
+    
+- ✨ Prepare this repo for **job interviews**
+    
+
+Just tell me 👍

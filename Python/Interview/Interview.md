@@ -113,3 +113,94 @@
 3. What are the most important Python topics to focus on for interviews?
 4. How should I approach a coding problem during an interview?
 5. What are some strategies to improve my coding speed and accuracy during a coding technical interview?
+
+#######################################################################
+
+Here is a **well-structured list of List Comprehension questions**, starting from **basic → intermediate → advanced**, perfect for **practice + interviews** 👍
+
+---
+
+## 🟢 BASIC LIST COMPREHENSION QUESTIONS
+
+1. Create a list of numbers from **0 to 9** using list comprehension.
+2. Generate a list of **squares** of numbers from 1 to 10.
+3. Create a list of **even numbers** from 1 to 20.
+4. Create a list of **odd numbers** from 1 to 20.
+5. Convert a list of integers to **strings** using list comprehension.
+6. Create a list of characters from a string.
+7. Create a list of numbers divisible by **5** from 1 to 100.
+8. Convert all words in a list to **uppercase**.
+9. Create a list of lengths of each word in a list.
+10. Create a list containing only **positive numbers**.
+
+---
+
+## 🟡 INTERMEDIATE LIST COMPREHENSION QUESTIONS
+
+11. Create a list of **squares of even numbers** from 1 to 20.
+12. Extract vowels from a given string.
+13. Remove all vowels from a string.
+14. Create a list of words with length greater than **4**.
+15. Replace negative numbers with **0**.
+16. Create a list of tuples `(number, square)` for numbers 1 to 10.
+17. Flatten a **2D list** into a 1D list.
+18. Create a list of numbers that are **both even and divisible by 3**.
+19. Create a list of common elements between two lists.
+20. Reverse each string in a list.
+
+---
+
+## 🔵 CONDITIONAL LIST COMPREHENSION
+
+21. Create a list of numbers with `"even"` or `"odd"` labels.
+22. Create a list where numbers greater than 50 remain same, else become `"low"`.
+23. Replace vowels with `"*"` in a string.
+24. Create a list of pass/fail based on marks (>40 = pass).
+25. Convert negative numbers to their absolute values.
+
+---
+
+## 🟣 NESTED LIST COMPREHENSION (IMPORTANT)
+
+26. Create a **3×3 matrix**.
+27. Transpose a matrix using list comprehension.
+28. Flatten a nested list.
+29. Create multiplication table (1–5).
+30. Generate all coordinate pairs `(x, y)` from two lists.
+
+---
+
+## 🔴 ADVANCED LIST COMPREHENSION
+
+31. Remove duplicates from a list.
+32. Find numbers that appear more than once.
+33. Create a list of prime numbers from 1 to 50.
+34. Generate Fibonacci series up to N terms.
+35. Create a list of palindromic strings.
+36. Create a list of common characters between two strings.
+37. Count frequency of characters using list comprehension.
+38. Create list of words sorted by length.
+39. Filter valid email addresses from a list.
+40. Create list of dictionary keys with values > 10.
+
+---
+
+## 🎯 INTERVIEW-FOCUSED QUESTIONS
+
+41. Difference between list comprehension and for-loop?
+42. When should you avoid list comprehension?
+43. Why are list comprehensions faster?
+44. Can list comprehension replace `map()` and `filter()`?
+45. What are the limitations of list comprehension?
+
+---
+
+## 🧠 BONUS PRACTICE (ONE-LINERS)
+
+46. `[i*i for i in range(10) if i % 2 == 0]`
+47. `[word[::-1] for word in words]`
+48. `[x for x in list1 if x in list2]`
+49. `[[i*j for j in range(1,6)] for i in range(1,6)]`
+50. `[char for char in string if char.isalpha()]`
+
+map question
