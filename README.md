@@ -49,7 +49,7 @@ This repository contains my **Machine Learning, AI, FastAPI, Docker, MLOps, Pyth
 | 📁 [Docker & Kubernetes](./Docker%20&%20Kubernet) | Docker, Kubernetes & containerization |
 | 📁 [Docker & n8n](./Docker%20n8n) | n8n automation using Docker |
 | 📁 [MLOps](./MLOps) | ML lifecycle, deployment & pipelines |
-| 📁 [PyTorch](./Pytorch) | Deep learning with PyTorch |
+| 📁 [PyTorch](Pytorch.md) | Deep learning with PyTorch |
 | 📁 [Python](./Python) | Core Python concepts & scripts |
 | 📁 [Linux & Ubuntu](./Linux%20and%20Ubuntu) | Linux commands & system basics |
 | 📁 [GitHub](./Github) | Git & GitHub workflows |
@@ -111,7 +111,7 @@ This repository contains my **Machine Learning, AI, FastAPI, Docker, MLOps, Pyth
 
 📂 Explore:  
 👉 [Python](./Python)  
-👉 [PyTorch](./Pytorch)  
+👉 [PyTorch](Pytorch.md)  
 👉 [Linux & Ubuntu](./Linux%20and%20Ubuntu)  
 👉 [GitHub](./Github)
 

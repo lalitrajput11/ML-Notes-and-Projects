@@ -264,3 +264,6 @@ It has private access  , workflow , that gives response based on your private . 
 and it has broad open mind , when you want to explore, it ll use LLm broadly to get all in , to your platform,
 
 Both access can be seen by your parent access whether it is father or mother  , and can see what are you currently browsing, they can see your pdf and note making, and past history related to the account 
+
+http://saedsayad.com/data_mining_map.htm
+pdf section in 
