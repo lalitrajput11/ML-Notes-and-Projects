@@ -11,10 +11,14 @@
             "id": "a7388ba343788867",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "ollama/Model For RAM.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Model For RAM"
             }
           }
         ]
@@ -196,8 +200,17 @@
   },
   "active": "a7388ba343788867",
   "lastOpenFiles": [
-    "Basic Machine Learning/Pdf/Machine Learning - White BG.pdf",
+    "ollama/Pasted image 20251230183547.png",
+    "ollama/Pasted image 20251230181631.png",
+    "ollama/Basic Command.md",
+    "ollama/Model For RAM.md",
     "A priority For NextDay/Models n8n projects.md",
+    "ollama",
+    "Basic Machine Learning/Exploring The Past/DataExploration.md",
+    "Basic Machine Learning/Pdf/Machine Learning - White BG.pdf",
+    "Basic Machine Learning/Exploring The Past",
+    "Basic Machine Learning/Mathematics and Statistics/Unconfirmed 603708.crdownload",
+    "Github/Github.md",
     "Python/OOPS/Oops.md",
     "Basic Machine Learning/Pdf/Unconfirmed 247872.crdownload",
     "Basic Machine Learning/Pdf",
@@ -205,9 +218,6 @@
     "Basic Machine Learning/FeatureEngg/Variable Characteristics/1.MissingData.ipynb.",
     "Basic Machine Learning/FeatureEngg/Variable Characteristics",
     "Basic Machine Learning/FeatureEngg/VariableCharachter",
-    "Basic Machine Learning/FeatureEngg/Types of Variables/5.MixedVariables.ipynb",
-    "Basic Machine Learning/FeatureEngg/Datasets/sample_s2.csv",
-    "Basic Machine Learning/FeatureEngg/Datasets/Unconfirmed 159107.crdownload",
     "Python/Interview/Pyhton Interviw Questions.md",
     "Python/Interview/Interview.md",
     "DSA/DSA.md",
@@ -225,22 +235,17 @@
     "API/Pasted image 20251227090938.png",
     "AgenticAi using Langraph/Agentic AI/Vactor Database.md",
     "AgenticAi using Langraph/LLMs/LLms.md",
-    "Github/Github.md",
     "Model&n8n/Projects.md",
     "Model&n8n/Models.md",
     "Stitch & Opal AI With Google/Stitch.md",
     "Data Labelling/Data Annotation/Data Labelling.md",
     "Docker&n8n/Pull n8n.md",
-    "Data Labelling/Company hunt.md",
-    "Data Labelling/Data Annotation/Journey.md",
-    "AgenticAi using Langraph/Agentic AI/Agentic AI.md",
     "AgenticAi using Langraph/Agentic AI/Pasted image 20251224115413.png",
     "AgenticAi using Langraph/Agentic AI/Pasted image 20251224115245.png",
     "Pasted image 20251224115241.png",
     "AgenticAi using Langraph/Agentic AI/Pasted image 20251224114853.png",
     "AgenticAi using Langraph/Agentic AI/Pasted image 20251224105332.png",
     "Basic Machine Learning/Data/Feature Engg/Pasted image 20251223181039.png",
-    "Basic Machine Learning/Mathematics and Statistics/Pasted image 20251223181009.png",
     "Untitled.canvas"
   ]
 }
