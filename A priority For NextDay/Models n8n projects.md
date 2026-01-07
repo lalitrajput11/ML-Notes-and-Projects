@@ -267,3 +267,12 @@ Both access can be seen by your parent access whether it is father or mother  , 
 
 http://saedsayad.com/data_mining_map.htm
 pdf section in 
+
+---
+Table:-
+
+|    Python |     |
+| OOPS--- | --- |
+|   CODING  |     |
+JAN3, 2025.  ALL DAY
+JAN4, ALL BASIC CS BOOOKS

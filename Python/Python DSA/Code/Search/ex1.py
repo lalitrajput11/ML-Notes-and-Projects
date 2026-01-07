@@ -214,87 +214,86 @@ w =["apple", "banana", "cherry", "date"]
 #         max_len = max(max_len, right - left + 1)
 #         right += 1
 #     return max_len
-
-# # Test
+# Test
 # print(lengthOfLongestSubstring("abcabcbb"))  # 3
 
-import sklearn
-import pandas as pd
-from sklearn.datasets import load_iris
-import matplotlib.pyplot as plt
-import seaborn as sns
-import numpy as np
+# import sklearn
+# import pandas as pd
+# from sklearn.datasets import load_iris
+# import matplotlib.pyplot as plt
+# import seaborn as sns
+# import numpy as np
 
-sns.set(style="whitegrid")
-
-
-# iris = load_iris()
-# x = iris.data
-# y = iris.target
-# df = pd.DataFrame(iris)
+# sns.set(style="whitegrid")
 
 
-df = load_iris(as_frame=True).frame
-
-# print(df.head())
-# print(df.info)
-# print(df.shape)
-
-# print(df.describe)
-
-# print(df.isnull().sum())
-# print(df.duplicated().sum())
-
-# print(df[df.duplicated(keep=False)])
-
-# print(df[df.duplicated()].index)
-# print(df.loc[df.duplicated(keep = False)])
-
-df_clean = df.drop_duplicates()
-
-# print(df_clean.duplicated().sum())
-
-# print(df_clean.head(2))
-
-# df_clean['target'].value_counts()
-# plt.figure()
-
-# df['target'].value_counts().plot(kind='bar')
-# plt.title("Species Distribution")
-# plt.xlabel("Species")
-# plt.ylabel("Count")
-
-# plt.show()
-# feature_names = iris.feature_names
-# target_names = iris.target_names
-
-from sklearn.model_selection import train_test_split
-X = df_clean.drop(columns='target')
-y = df_clean['target']
+# # iris = load_iris()
+# # x = iris.data
+# # y = iris.target
+# # df = pd.DataFrame(iris)
 
 
+# df = load_iris(as_frame=True).frame
 
+# # print(df.head())
+# # print(df.info)
+# # print(df.shape)
 
+# # print(df.describe)
 
-X_train,X_test ,y_train,y_test = train_test_split(X,y,test_size=0.2,random_state=42, stratify=y)
+# # print(df.isnull().sum())
+# # print(df.duplicated().sum())
 
-from sklearn.preprocessing import StandardScaler
+# # print(df[df.duplicated(keep=False)])
 
-scaler = StandardScaler()
-X_train_scaeld = scaler.fit_transform(X_train)
-X_test_scaled = scaler.fit_transform(X_test)
+# # print(df[df.duplicated()].index)
+# # print(df.loc[df.duplicated(keep = False)])
 
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score, classification_report
+# df_clean = df.drop_duplicates()
 
-lr = LogisticRegression(max_iter=200)
-lr.fit(X_train_scaeld,y_train)
+# # print(df_clean.duplicated().sum())
 
-y_pred_lr = lr.predict(X_test_scaled)
+# # print(df_clean.head(2))
 
-print("Logistic Regression Accuracy : ",accuracy_score(y_test,y_pred_lr))
-print('Classifiaction_report : ',classification_report(y_test,y_pred_lr))
+# # df_clean['target'].value_counts()
+# # plt.figure()
+
+# # df['target'].value_counts().plot(kind='bar')
+# # plt.title("Species Distribution")
+# # plt.xlabel("Species")
+# # plt.ylabel("Count")
+
+# # plt.show()
+# # feature_names = iris.feature_names
+# # target_names = iris.target_names
+
+# from sklearn.model_selection import train_test_split
+# X = df_clean.drop(columns='target')
+# y = df_clean['target']
 
 
 
 
+
+# X_train,X_test ,y_train,y_test = train_test_split(X,y,test_size=0.2,random_state=42, stratify=y)
+
+# from sklearn.preprocessing import StandardScaler
+
+# scaler = StandardScaler()
+# X_train_scaeld = scaler.fit_transform(X_train)
+# X_test_scaled = scaler.fit_transform(X_test)
+
+# from sklearn.linear_model import LogisticRegression
+# from sklearn.metrics import accuracy_score, classification_report
+
+# lr = LogisticRegression(max_iter=200)
+# lr.fit(X_train_scaeld,y_train)
+
+# y_pred_lr = lr.predict(X_test_scaled)
+
+# print("Logistic Regression Accuracy : ",accuracy_score(y_test,y_pred_lr))
+# print('Classifiaction_report : ',classification_report(y_test,y_pred_lr))
+
+
+
+print("Hello")
